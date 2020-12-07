@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fakorede Damilola | jambmock</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header-top">
+        <div class="logo">
+          <a href="index.html"> Fako</a>
+        </div>
+      </div>
+    </header>
+    <main class="pt-5">
+      <section class="container pt-5">
+        <!-- PROJECT OVERVIEW -->
+        <div class="project-overview">
+          <div class="row">
+            <div class="pt-3 col-lg-8">
+              <h1 class="pb-4">jambMock</h1>
+              <p>
+                jambMock is a react application, created to help students
+                prepare for the JAMB (Joint admission matriculation board)
+                examination. A very important examination needed to enter the
+                higher institution (university)
+              </p>
+              <div class="project-info mt-5">
+                <div>
+                  <h4>STACK</h4>
+                  <ul class="skill-ul">
+                    <li>
+                      <div></div>
+                      React
+                    </li>
+                    <li>
+                      <div></div>
+                      Bootstrap
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-4">
+                  <h4>PREVIEW</h4>
+                  <ul class="skill-ul">
+                    <li>
+                      <div></div>
+                      <a href="https://jambmock.netlify.app/">live</a>
+                    </li>
+                    <li>
+                      <div></div>
+                      <a href="#">github</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-mainImg my-3">
+            <img src="./images/jamb_main.jpeg" alt="project main image" />
+          </div>
+        </div>
+        <!-- PROJECT PURPOSE AND GOAL -->
+        <div class="projectPropose mt-5">
+          <div class="row">
+            <div class="col-lg-8">
+              <h2 class="mb-4">Project Purpose and Goal</h2>
+              <p>
+                The plan initially was to create a simple Q & A application with
+                HTML and CSS has a side project. But I realized I could make it
+                better by creating it a react application that contains actually
+                questions people could use.
+              </p>
+              <p>
+                I used the <a href="#">aloc api</a>, which contains about 5000
+                past questions across various subjects ranging from Mathematics,
+                English etc. I decided to create an option to set it up like the
+                actually JAMB examination where there will be a timer and users
+                have to select the four different subject that will be taking in
+                the actually JAMB
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- LESSON LEARNT -->
+        <div class="lessonLearnt mt-5">
+          <div class="row">
+            <div class="col-lg-8 order-lg-12">
+              <h2 class="mb-4">Lesson Learnt</h2>
+              <p>
+                One of the major thing I learnt to use in this function was the
+                <b>promise.all</b> method. If a user decide to take the mock
+                exam, I had to call await function that gets all the questions
+                in the four different subjects (which are all different API
+                routes) before displaying anthing to the user.
+              </p>
+              <p>
+                For state management, contextApi was used, although there was
+                little or no use for it because most of the requests were made
+                in componentDidMount
+              </p>
+            </div>
+            <div class="col-lg-4 order-lg-1"></div>
+          </div>
+        </div>
+        <!-- GALLERY -->
+      </section>
+      <footer>
+        <div class="footer container pt-5 pb-2">
+          <div class="pt-4 pb-2">
+            <h2 class="mb-3">Let's Build Something Together</h2>
+            <p>
+              Feel free to reach out if you're looking for a developer, have a
+              question, or just want to connect.
+            </p>
+          </div>
+
+          <div class="footer-mail pb-4">
+            <a href="#"> dammy.fakorede@gmail.com </a>
+            <div class="animate"></div>
+          </div>
+          <div class="footer-contact">
+            <div class="footer-logo">Fako</div>
+            <div class="footer-link">
+              <p><a href="https://github.com/fakoredeDamilola">github</a></p>
+              <p><a href="https://twitter.com/fakoredeDami">twitter</a></p>
+              <p>
+                <a href="https://www.linkedin.com/in/fakorededamilola/"
+                  >linkedin</a
+                >
+              </p>
+              <p><a href="linkedin.com/in/fakorede-damilola">devto</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
