@@ -3,10 +3,17 @@
   margin: 0;
 }
 :root {
-  --primary-color: white;
+  --primary-color: black;
   --secondary-color: rgb(26, 20, 20);
-  --hover-color: rgb(134, 142, 216);
-  --color: #696969;
+  --background-color: linear-gradient(
+    0deg,
+    rgb(228, 138, 40),
+    rgb(204, 72, 86),
+    rgb(110, 58, 108)
+  );
+  --hover-color: rgb(172, 76, 76);
+  --color: #0e0d0d;
+  --theme-color-boxShadow: 0 0 10px #ccc;
 }
 /* general */
 p {
@@ -15,7 +22,7 @@ p {
 body {
   font-size: 18px !important;
   font-family: "Mulish", sans-serif !important;
-  color: rgba(22, 22, 22, 0.822) !important;
+  color: rgb(10, 9, 9) !important;
 }
 h1,
 h2,
@@ -35,7 +42,8 @@ header {
   z-index: 9999;
 }
 .header-top {
-  background: var(--secondary-color);
+  background: white;
+  box-shadow: var(--theme-color-boxShadow);
   display: flex;
   justify-content: space-between;
   padding: 20px 30px;
@@ -91,7 +99,7 @@ header nav ul {
   text-transform: uppercase;
   position: absolute;
   bottom: 1%;
-  right: 1%;
+  right: 20%;
 }
 
 header nav.active {
@@ -113,6 +121,7 @@ header nav ul li a {
 }
 a:hover {
   text-decoration: none !important;
+
   color: var(--hover-color) !important;
 }
 .animation,
@@ -121,13 +130,13 @@ a:hover {
   margin: auto;
   margin-top: 5px;
   margin-left: 30px;
-  background: var(--hover-color);
+  background: var(--background-color);
   transition: 0.5s all;
   height: 2px;
 }
 header nav ul li:hover .animation,
 header nav ul li.actived .animation {
-  background-color: var(--hover-color);
+  background-color: var(--background-color);
   width: 70px;
 }
 
@@ -144,10 +153,8 @@ header nav ul li.actived .animation {
   opacity: 0.4;
   width: 50%;
   z-index: -1;
-  background: var(--hover-color);
+  background: var(--background-color);
   top: 100%;
-}
-.overlay1 {
   animation: animateOverlay1 0.5s ease-in 1s forwards;
 }
 @keyframes animateOverlay1 {
@@ -171,7 +178,7 @@ header nav ul li.actived .animation {
 .mouse-down {
   width: 60px;
   height: 60px;
-  background: var(--hover-color);
+  background: var(--background-color);
   transform: rotateZ(135deg);
   display: flex;
   align-items: center;
@@ -190,7 +197,7 @@ header nav ul li.actived .animation {
 .contact {
   height: 70px;
   position: relative;
-  top: 120px;
+  top: 80px;
   display: flex;
 }
 .contactLine {
@@ -257,7 +264,10 @@ header nav ul li.actived .animation {
   overflow: scroll;
 }
 .project-gallery {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(245, 245, 245);
+}
+.project-link {
+  font-weight: 900 !important;
 }
 .project-link span {
   margin-left: 5px;
@@ -284,7 +294,7 @@ header nav ul li.actived .animation {
   overflow: hidden;
   height: 400px;
   cursor: pointer;
-  background: rgb(240, 240, 240);
+  background: rgb(245, 245, 245);
 }
 .design-img {
   border: 1px solid var(--hover-color);
@@ -335,11 +345,11 @@ header nav ul li.actived .animation {
 
 /* ARTICLES */
 .article {
-  background: rgb(240, 240, 240);
+  background: rgb(245, 245, 245);
   width: 100%;
   margin-bottom: 30px;
 
-  height: 450px;
+  padding-bottom: 20px;
 }
 .article a {
   color: var(--color);
@@ -353,7 +363,7 @@ header nav ul li.actived .animation {
 }
 /* FOOTER */
 footer {
-  background: rgb(240, 240, 240);
+  background: rgb(245, 245, 245);
 }
 .footer-link {
   display: flex;
@@ -364,7 +374,10 @@ footer {
   text-align: center;
 }
 .footer-link p {
-  padding: 0 5px;
+  padding: 0 10px;
+}
+.footer-link p img {
+  width: 30px;
 }
 .footer-link p a,
 .footer-mail a {
