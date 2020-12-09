@@ -19,7 +19,6 @@ closeNav.addEventListener("click", function () {
     menu.classList.remove("active")
 
 })
-mouseDown.addEventListener("click", clickHandler)
 
 function clickHandler(e) {
     e.preventDefault();
