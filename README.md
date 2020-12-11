@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 
 ## Fakorede Damilola
 
-I am a developer who loves creating impactful brands and products.
+I am a fullstack(MERN) web developer who loves to create impactful brands and products.
 
 As I've grown as a developer, I have built awesome projects which have opened my eyes to what is expected of any web application.
 
