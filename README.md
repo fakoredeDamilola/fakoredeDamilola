@@ -24,9 +24,9 @@ Through these experiences, I've built memorable products that are not only enjoy
 
 I started my coding journey with dreamweaver, but I felt there was more to programming, I wanted to feel that speed typing I always saw people do on television, and that led me to become better and more passionate about programming.
 
-## Contact me
-
 ---
+
+## Contact me
 
 Website : [fakocodes](https://fakocodes.netlify.app/)
 
@@ -42,3 +42,11 @@ Linkedin : [fakorededamilola](https://www.linkedin.com/in/fakorededamilola/)
 * [fakomavins](https://fakomavins.netlify.app/)
 * [jayyFakorede](https://jayyfakorede.herokuapp.com/)
 
+---
+
+## Articles
+* [Introduction to algorithm and the big O notation](https://dev.to/fakorededamilola/introduction-to-algorithm-and-the-big-o-notation-533)
+* [Uploading images on mongoDB via nodeJS](https://dev.to/fakorededamilola/uploading-images-on-mongodb-via-nodejs-5h1l)
+* [Create a memory game with JavaScript](https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j)
+
+---
