@@ -19,45 +19,54 @@
   <body>
     <!-- HEADER -->
     <header>
-      <div class="header-top">
-        <div class="logo">
-          <a href="#ndex"> Fako</a>
-        </div>
-        <div class="menu-toggle">
-          <div class="bars-text">
-            <div class="bars"></div>
-            <div class="bars"></div>
-            <div class="bars"></div>
+      <div class="header">
+          <div class="headerTop">
+              <div class="logo">
+                  <Link href="/">
+                      <a style="font-family: 'Langar', cursive">
+                          Fako
+              </a>
+                  </Link>
+
+              </div>
+
+              <div class="menuToggle">
+                  <div class="barsText">
+                      <div class="bars"></div>
+                      <div class="bars"></div>
+                      <div class="bars"></div>
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-      <nav class="menu">
-        <div class="close-nav">X</div>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-            <div class="animation"></div>
-          </li>
-          <li>
-            <a href="#project">Project</a>
-            <div class="animation"></div>
-          </li>
-          <li>
-            <a href="#articles">Articles</a>
-            <div class="animation"></div>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-            <div class="animation"></div>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="container">
-        <!-- HOME -->
-        <section class="home-section" id="index">
-          <div class="contact">
+
+          <nav>
+                  <ul class="menu">
+                    <li class="closeMenu">
+                      <div class="close-nav">X</div>
+                  </li>
+                  <li>
+                    <a href="#home">Home</a>
+                    <div class="animation"></div>
+                  </li>
+                    <li>
+                      <a href="#about">About</a>
+                      <div class="animation"></div>
+                    </li>
+                    <li>
+                      <a href="#project">Project</a>
+                      <div class="animation"></div>
+                    </li>
+                    <li>
+                      <a href="#articles">Articles</a>
+                      <div class="animation"></div>
+                    </li>
+                    <li>
+                      <a href="#contact">Contact</a>
+                      <div class="animation"></div>
+                    </li>
+                    <li class="contact-head">
+
+                       <div class="contact">
             <div class="contactLine"></div>
             <div class="contactIcons">
               <a href="https://twitter.com/fakoredeDami">
@@ -71,23 +80,62 @@
               </a>
             </div>
           </div>
-          <div class="home">
-            <div class="overlay1"></div>
-            <div class="overlay2"></div>
-            <div class="home-text">
-              <div class="home-img"></div>
-              <div>
-                <h6>Hi there,</h6>
-                <h1 class="my-2">I'm Damilola</h1>
+                    </li>
 
-                <h5>A fullstack (MERN) Developer.</h5>
+                  </ul>
+
+
+          </nav>
+      </div>
+  </header>
+
+    <main>
+      <section class="container">
+        <!-- HOME -->
+        <section class="home-section" id="index">
+<div class="home" id="home">
+  <div class="context">
+            <div class="home-text">
+              <div class="home-img">
+                <img src="./images/index.jpg" loading="lazy" alt="" />
+              </div>
+              <div>
+                <p>Hi, I'm Damilola, a software developer based in Nigeria</p>
+
+                <div class="button">
+                  <a href="#about" class="links"
+                    ><button class="cv">About</button></a
+                  >
+                  <a href="#project"  target="_blank"
+                    ><button class="cv">projects</button></a
+                  >
+
+                </div>
+
               </div>
             </div>
           </div>
+<div class="area" >
+                <ul class="circles">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>MongoDB</li>
+                        <li>React</li>
+                        <li>Firebase</li>
+                        <li>NodeJS</li>
+                        <li>NextJS</li>
+                        <li>Git</li>
+                        <li>Bootstrap</li>
+                </ul>
+        </div >
+</div>
+
+
         </section>
         <!-- ABOUT -->
         <section class="about" id="about">
-          <div class="about-text row mt-2">
+          <div class="about-text row mt-4">
             <div class="about-div col-lg-6">
               <div>
                 I am a developer who loves creating impactful brands and
@@ -139,6 +187,10 @@
                 <li>
                   <div></div>
                   React
+                </li>
+                <li>
+                  <div></div>
+                  NextJS
                 </li>
                 <li>
                   <div></div>
@@ -220,15 +272,14 @@
               </div>
               <div>
                 <div class="project-img">
-                  <img src="./images/mavins_main.jpeg" alt="img" />
+                  <img src="./images/donmovies_main.jpeg" alt="img" />
                 </div>
-                <h3 class="my-4">mavinsRecord</h3>
+                <h3 class="my-4">Donmovies</h3>
                 <p>
-                  mavinsRecord is a simple website built with HTML, CSS and
-                  JavaScript
+                  Donmovies is a nextJS application integrated with themovieDB api and firebase. This is my first official nextJS application
                 </p>
                 <div class="my-4 project-link">
-                  <a href="mavinsrecord.html">VIEW PROJECT <span>></span></a>
+                  <a href="donmovies.html">VIEW PROJECT <span>></span></a>
                   <div class="animate"></div>
                 </div>
               </div>
@@ -277,19 +328,19 @@
                 </div>
               </div>
               <div class="design-img">
-                <img src="./images/shopping_cart.jpeg" alt="img" />
+                <img src="./images/mavins_main.jpeg" alt="img" />
                 <div class="design-item-icons">
                   <div class="design-icons">
                     <div>
                       <a
-                        href="https://fakoshoppingcart.netlify.app/"
+                        href="https://fakomavins.netlify.app/"
                         target="#blank"
                         ><img src="./images/double-arrow-top.svg"
                       /></a>
                     </div>
                     <div>
                       <a
-                        href="https://github.com/fakoredeDamilola/shopping-cart"
+                        href="https://github.com/fakoredeDamilola/mavins-clone"
                         target="#blank"
                         ><img src="./images/github.svg"
                       /></a>

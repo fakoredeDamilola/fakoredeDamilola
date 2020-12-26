@@ -1,17 +1,17 @@
 // define variables and dom elements
-let menuToggle = document.querySelector(".menu-toggle")
+let barsText = document.querySelector(".barsText")
 let closeNav = document.querySelector(".close-nav")
 let menu = document.querySelector(".menu")
 let mouseDown = document.querySelector(".mouse-down")
 
-let links = document.querySelectorAll(".menu ul li a")
+let links = document.querySelectorAll(".menu li a")
 for (const link of links) {
     link.addEventListener("click", clickHandler);
 }
 
 
 // define eventlisteners
-menuToggle.addEventListener("click", function () {
+barsText.addEventListener("click", function () {
     menu.classList.add("active")
 
 })
@@ -21,13 +21,17 @@ closeNav.addEventListener("click", function () {
 })
 
 function clickHandler(e) {
-    e.preventDefault();
+
     menu.classList.remove("active");
     const href = this.getAttribute("href");
-    const offsetTop = document.querySelector(href).offsetTop;
+    if (href.split("")[0] === "#") {
+        e.preventDefault();
+        const offsetTop = document.querySelector(href).offsetTop;
 
-    scroll({
-        top: offsetTop,
-        behavior: "smooth",
-    });
+        scroll({
+            top: offsetTop,
+            behavior: "smooth",
+        });
+    }
+
 }
