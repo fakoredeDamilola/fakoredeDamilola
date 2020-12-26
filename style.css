@@ -120,7 +120,7 @@ body {
 }
 
 .circles li:nth-child(4) {
-  left: 30%;
+  left: 40%;
   width: 110px;
   height: 110px;
   animation-delay: 0s;
@@ -135,21 +135,21 @@ body {
 }
 
 .circles li:nth-child(6) {
-  left: 80%;
+  left: 75%;
   width: 80px;
   height: 80px;
   animation-delay: 3s;
 }
 
 .circles li:nth-child(7) {
-  left: 55%;
+  left: 35%;
   width: 90px;
   height: 90px;
   animation-delay: 7s;
 }
 
 .circles li:nth-child(8) {
-  left: 60%;
+  left: 50%;
   width: 73px;
   height: 73px;
   animation-delay: 15s;
