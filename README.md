@@ -16,13 +16,29 @@ Here are some ideas to get you started:
 
 ## Fakorede Damilola
 
-I am a fullstack(MERN) web developer who loves to create impactful brands and products.
+hi, my name is Damilola and I am a web developer. As a full stack web developer, I love and specialize in building easy to use products.
+I put myself in place of the user and I don't make assumptions. I personally believe this is one of the key things that make a website awesome and this is what I hope to achieve with every product I build. I don't assume the user should know it is a button when I don't put a pointer cursor and I definitely would not assume that they should know a button is disabled when I don't give it a disabled cursor when they hover.
 
-As I've grown as a developer, I have built awesome projects which have opened my eyes to what is expected of any web application.
+I am currently working on clones of products I love like udemy etc
 
-Through these experiences, I've built memorable products that are not only enjoyable to use, but are written in code that's maintainable and easy to understand.
+I read articles mostly and watch a few YouTube videos on how to improve my skills which are listed below. 
 
-I started my coding journey with dreamweaver, but I felt there was more to programming, I wanted to feel that speed typing I always saw people do on television, and that led me to become better and more passionate about programming.
+I am looking to collaborate on any fullstak or blockchain project. I hope to learn and also contribute my own quota diligently
+
+I am passionate about tech and I am always looking forward to learn as much as I can, tech and non-tech related .
+
+I would love to network with new people, work and also learn from others.
+I work mostly but not limited to
+JavaScript, 
+Typescript
+React,
+NextJS,
+MongoDB,
+web3,
+etherJS
+ChakraUI
+
+Let's connect
 
 ---
 
