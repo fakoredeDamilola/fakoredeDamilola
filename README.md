@@ -16,28 +16,10 @@ Here are some ideas to get you started:
 
 ## Fakorede Damilola
 
-hi, my name is Damilola and I am a web developer with 2+ years of professional web development experience, I have been actively involved in the development and maintenance of awesome web products & applications, from large enterprise applications to small projects and services. 
-
-I am currently working on clones of products I love like udemy etc
-
-I read articles mostly and watch a few YouTube videos on how to improve my skills which are listed below. 
-
-I am looking to collaborate on any fullstack or blockchain project. I hope to learn and also contribute my own quota diligently
-
-I am passionate about tech and I am always looking forward to learn as much as I can, tech and non-tech related .
-
-I would love to network with new people, work and also learn from others.
-I work mostly but not limited to
-JavaScript, 
-Typescript
-React,
-NextJS,
-MongoDB,
-web3,
-etherJS
-ChakraUI
-
-Let's connect
+Skilled in solving problems with HTML, CSS, JavaScript, React, MongoDB, GraphQL, TypeScript and Node.js
+Focused on being a valuable part of any team I am on and believe in the team rising together.
+I have no issue jumping in to assist anywhere an extra couple of hands might be needed and I am readily available to learn any new technology or skill whenever there is a need for it. 
+I have a keen eye for details and I love learning new things.
 
 ---
 
