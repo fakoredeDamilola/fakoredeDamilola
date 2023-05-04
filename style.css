@@ -454,15 +454,13 @@ h6 {
   width: 100%;
   margin-bottom: 30px;
   overflow: hidden;
-  height: 400px;
+  height: 300px;
   cursor: pointer;
 }
-.design-img {
-  border: 1px solid var(--hover-color);
-}
-.design-img img {
+.design-img> img {
   width: 100%;
   transition: 1s all;
+  object-fit:cover;
 }
 
 .design-item-icons {
@@ -500,7 +498,7 @@ h6 {
 .design-img:hover {
   filter: grayscale(100%);
 }
-.design-img:hover img {
+.design-img:hover > img {
   transform: translateY(-67%);
   overflow: scroll;
 }

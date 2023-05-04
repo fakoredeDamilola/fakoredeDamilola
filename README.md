@@ -16,10 +16,10 @@ Here are some ideas to get you started:
 
 ## Fakorede Damilola
 
-Skilled in solving problems with HTML, CSS, JavaScript, React, MongoDB, GraphQL, TypeScript and Node.js
-Focused on being a valuable part of any team I am on and believe in the team rising together.
-I have no issue jumping in to assist anywhere an extra couple of hands might be needed and I am readily available to learn any new technology or skill whenever there is a need for it. 
-I have a keen eye for details and I love learning new things.
+As a full-stack developer, I have accumulated four years of rich experience delivering top-notch solutions to clients. My passion for solving
+complex technical problems and exploring the latest in technology is what keeps me motivated. I have worked proficiently with diverse
+programming languages, frameworks, and databases. I have a knack for problem-solving, leveraging critical thinking to come up with creative
+solutions to complex problems.
 
 ---
 
@@ -35,9 +35,7 @@ Linkedin : [fakorededamilola](https://www.linkedin.com/in/fakorededamilola/)
 
 ## Cool Projects
 
-* [electionVote](http://electionvote.herokuapp.com/)
 * [fakomavins](https://fakomavins.netlify.app/)
-* [jayyFakorede](https://jayyfakorede.herokuapp.com/)
 
 ---
 
